@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Pahua's MadLibs Start</title>
+        <meta name="description" content="Mad Libs" author="Paulina Cruz y Corro Pérez">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+
+    <body data-spy="scroll" data-target="#scrollspy">
+
+
+
+        <nav id="scrollspy" class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+              <!--SCROLLSPY -->
+            <ul class="nav navbar-nav">
+              <li><a href="#Carousel">Carousel</a></li>
+              <li><a href="#Jumbotron">Jumbotron</a></li>
+              <li><a href="#MainContainer">MainContainer <span class="badge">42</span></a></li>
+              <li><a href="#Tabs">Tabs</a></li>
+            </ul>
+            <!--SCROLLSPY -->
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--
+        1. Carousel
+      -->
+      <div id="Carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#Carousel" data-slide-to="1"></li>
+            <li data-target="#Carousel" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="carousel-caption"> <h3> S L I D E 1</h3>
+                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
+
+                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
+
+                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
+
+                <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="right" trigger="focus" title="Tooltip on right">Tooltip on right</button>
+
+              </div>
+            </div>
+            <div class="item">
+              <div class="carousel-caption">  <h3>S L I D E 2</h3>
+                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" trigger="focus"   title="Popover title" data-content="Y aqui est� la slide n�mero dos. WOW!">DALE CLICK!!</button>
+              </div>
+            </div>
+            <div class="item">
+              <div class="carousel-caption"><h3> S L I D E 3</h3>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!--
+        1. FIN Carousel
+      -->
+
+      <div id="Jumbotron" class="jumbotron">
+        <div class="container">
+          <h1><span class="label label-default">Nuevo</span> M O D A L</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam cupiditate excepturi maxime! Nam voluptate, expedita ab alias, aut facilis id repellat vel placeat quae dignissimos consequuntur non! Dolorum, recusandae quis.</p>
+            <div class="alert alert-info" role="alert">
+              <strong>Hey hey hey!</strong> This alert needs your attention, but it's not super important, so whatever.
+            </div>
+            <!--
+              2. Modal
+            -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@Pahua">Open modal for @Pahua</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="recipient-name" class="control-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="form-group">
+                        <label for="message-text" class="control-label">Message:</label>
+                        <textarea class="form-control" id="message-text"> Que bonita página</textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-body">
+                    Pero por favor no envÍes más comentarios. 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!--
+                2. FIN Modal
+              -->
+        </div>
+      </div>
+
+      <div id="MainContainer" class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>This First Heading
+              <span class="text-muted">Will Catch Your Eye</span>
+            </h2>
+            <p class="lead">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nostrum iusto minus, similique. Non qui ipsa quae deleniti illo! Culpa, at facere iusto quia inventore nisi, doloribus dolores praesentium natus.</p>
+
+          </div>
+          <div class="col-md-4">
+            <img class="img-circle img-responsive" src="http://placehold.it/300x300">
+          </div>
+
+          <hr class="col-md-12 featurette-divider">
+          <div class="col-md-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gOgpdp3lP8M" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <h2>The Second Heading <small>Is Pretty Cool Too.</small></h2>
+            <dl class="dl-horizontal text-center">
+              <dt>Lorem ipsum.</dt>
+              <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quasi, officia dolores accusantium corrupti delectus.</dd>
+              <dt>Lorem ipsum.</dt>
+              <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quasi, officia dolores accusantium corrupti delectus.</dd>
+              <dt>Lorem ipsum.</dt>
+              <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quasi, officia dolores accusantium corrupti delectus.</dd>
+            </dl>
+          </div>
+
+          <hr class="col-md-12 featurette-divider">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-4">
+                <blockquote>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+              </div>
+              <div class="col-md-4 col-md-offset-4">
+                <blockquote class="blockquote-reverse">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <address>
+              <strong>Twitter, Inc.</strong><br>
+              795 Folsom Ave, Suite 600<br>
+              San Francisco, CA 94107<br>
+              <abbr title="Phone">P:</abbr> (123) 456-7890
+            </address>
+
+            <address>
+              <strong>Full Name</strong><br>
+              <a href="mailto:#">first.last@example.com</a>
+            </address>
+          </div>
+
+          <hr class="col-md-12 featurette-divider">
+          <div class="col-md-6">
+            <table class="table table-hover table-responsive">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Username</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry</td>
+                      <td>the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+          </div>
+          <div class="col-md-6">
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Remember me
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Sign in</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <hr class="col-md-12 featurette-divider">
+        </div>
+      </div>
+      <!-- /.container -->
+
+      <!--
+        4. Tab
+      -->
+        <div id="Tabs" class="container">
+           <div class="row">
+            <div class="col-md-12">
+         <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">GO TO HOME </a></li>
+              <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+              <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"> MENSAJILLOS </a></li>
+              <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Surprise!</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane fade in active" id="home"> We all live under the same sky, but we don't all have the same horizon </div>
+              <div role="tabpanel" class="tab-pane fade" id="profile">  Just the fact that some geniuses were laughed at does not imply that all who are laughed at are geniuses. They laughed at Columbus, they laughed at Fulton, they laughed at the Wright brothers. But they also laughed at Bozo the Clown. �Carl Sagan </div>
+              <div role="tabpanel" class="tab-pane fade" id="messages"> Normal is getting dressed in clothes that you buy for work and driving through traffic in a car that you are still paying for � in order to get to the job you need to pay for the clothes and the car, and the house you leave vacant all day so you can afford to live in it.�Ellen Goodman</div>
+              <div role="tabpanel" class="tab-pane fade" id="settings">I have a dream that one day every valley shall be exhalted, every hill and mountain shall be made low, the rough places will be made plain, and the crooked places will be made straight, and the glory of the Lord shall be revealed, and all flesh shall see it together</div>
+            </div>
+           </div>
+          </div>
+        </div>
+      <!--
+        4. FIN Tab
+      -->
+    </div> <!-- /container -->        
+
+
+
+    <footer class="container">
+        <div>
+          <p>Copyright &copy; PAULINA CRUZ Y CORRO 2015</p>
+        </div>
+      </footer>
+ 
+
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+        <script src="js/scriptPahua.js"></script>
+
+
+    </body>
+</html>
+
+

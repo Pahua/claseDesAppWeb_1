@@ -1,0 +1,71 @@
+
+
+/* ==========================================================================
+   Paulina Cruz y Corro Pérez
+   ========================================================================== */
+
+.featurette-divider {
+          margin: 80px 0;
+        }
+        img, img.img-responsive {
+            margin: 0 auto;
+        }
+        .carousel .item {
+            height: 500px;
+            background-color: #777;
+        }
+        /* Required for scrollspy to work*/
+        body {
+          position: relative;
+          font-family: 'Georgia'; 
+        }
+        /* The fixed navbar will overlay your other content, unless you add padding to the top of the <body>. Try out your own values or use our snippet below. Pro Tip: By default, the navbar is 50px high.*/
+        body {
+          padding-top: 50px;
+        }
+        /* Hotfix the panes with 20px on top*/
+        .tab-pane{
+          margin: 20px 0;
+        }
+
+/* ===FOOTER== */
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-tw:hover {
+     color: #bb47c9
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+
+/* === == */
+
+
+
+
+
+
+
