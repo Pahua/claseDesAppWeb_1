@@ -35,9 +35,9 @@
           <div class="collapse navbar-collapse" id="bs-navbar-collapse">
               <!--SCROLLSPY -->
             <ul class="nav navbar-nav">
-              <li><a href="#Carousel">Carousel</a></li>
-              <li><a href="#Jumbotron">Jumbotron</a></li>
-              <li><a href="#MainContainer">MainContainer <span class="badge">42</span></a></li>
+              <li><a href="#Jumbotron">Welcome!</a></li>
+              <li><a href="#MainContainer"> What is Mad Libs?</a></li>
+              <li><a href="#LittlePractice">Practice</a></li>
               <li><a href="#Tabs">Tabs</a></li>
             </ul>
             <!--SCROLLSPY -->
@@ -60,45 +60,67 @@
       <div id="Jumbotron" class="Jumbotron">
         <div class="container">
             <h1>Welcome
-               <span class="text-muted">Will Catch Your Eye</span>!</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+               <span id="introUsername" class="text-muted">  </span>!</h1>
+            <p class="lead">This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         </div>
       </div>
-            <!--
-              2. Modal
-            -->
-           
+
+      <hr class="col-md-12 featurette-divider">
 
       <div id="MainContainer" class="container">
         <div class="row">
           <div class="col-md-8">
-            <h2>This First Heading
-              <span class="text-muted">Will Catch Your Eye</span>
+            <h2>But first... 
+              <span class="text-muted">what is Mad Libs?</span>
             </h2>
-            <p class="lead">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nostrum iusto minus, similique. Non qui ipsa quae deleniti illo! Culpa, at facere iusto quia inventore nisi, doloribus dolores praesentium natus.</p>
+            <p class="lead">From Wikipedia... "Mad Libs is a phrasal template word game where one player prompts others for a list of words to substitute for blanks in a story, before reading the – often comical or nonsensical – story aloud". In other words, you fill in blanks and then those words form part of a story! </p>
 
+            <p class="question">Are you ready to play now?</p>
+
+              <button id="swapArchived" class="btn btn-primary btn-success showArchived" data-toggle="popover" trigger="focus"   title="Slow down!" data-content="Please scroll down for a little practice">
+                <span class="glyphicon glyphicon-check"></span>
+                <span class="text">YES READY!</span>
+              </button>
           </div>
           <div class="col-md-4">
-            <img class="img-circle img-responsive" src="http://placehold.it/300x300">
+            <img class="img-rounded img-responsive" src="img/madl.png">
           </div>
+        </div>
 
-          <hr class="col-md-12 featurette-divider">
-          <div class="col-md-4">
+    <hr class="col-md-12 featurette-divider">
+
+          <div id="LittlePractice" class ="container">
+              <div class="col-md-10">
+                <h2>Back to school!  <small>Yeah, you need a little practice</small></h2>
+                <p class="lead">Let's face it, your English is a bit rusty... Check out this concepts and keep them in mind while filling out your MadLibs' blanks </p>
+             <div class="col-md-4">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gOgpdp3lP8M" allowfullscreen></iframe>
+              <iframe lass="embed-responsive-item" src="https://www.youtube.com/embed/pDJ7lqxBBXo" frameborder="2" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col-md-8">
-            <h2>The Second Heading <small>Is Pretty Cool Too.</small></h2>
             <dl class="dl-horizontal text-center">
-              <dt>Lorem ipsum.</dt>
+               <h2><dt>Concept</dt>
+              <small> <dd>definition</dd></small></h2>
+              <dt>Verb</dt>
+              <dt>Noun</dt>
               <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quasi, officia dolores accusantium corrupti delectus.</dd>
-              <dt>Lorem ipsum.</dt>
+              <dt>Verb</dt>
               <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quasi, officia dolores accusantium corrupti delectus.</dd>
-              <dt>Lorem ipsum.</dt>
+              <dt>Pronoun</dt>
+              <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quasi, officia dolores accusantium corrupti delectus.</dd>
+              <dt>Adjective</dt>
+              <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quasi, officia dolores accusantium corrupti delectus.</dd>
+              <dt>Adverb</dt>
+              <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quasi, officia dolores accusantium corrupti delectus.</dd>
+              <dt>Interjection</dt>
               <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quasi, officia dolores accusantium corrupti delectus.</dd>
             </dl>
+          </div>
+
+
+
+              </div>
           </div>
 
           <hr class="col-md-12 featurette-divider">
@@ -118,6 +140,8 @@
               </div>
             </div>
           </div>
+
+
           <div class="col-md-4">
             <address>
               <strong>Twitter, Inc.</strong><br>
@@ -165,40 +189,10 @@
                   </tbody>
                 </table>
           </div>
-          <div class="col-md-6">
-            <form class="form-horizontal">
-              <div class="form-group">
-                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-                <div class="col-sm-10">
-                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox"> Remember me
-                    </label>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-default">Sign in</button>
-                </div>
-              </div>
-            </form>
-          </div>
+    
 
           <hr class="col-md-12 featurette-divider">
         </div>
-      </div>
       <!-- /.container -->
 
       <!--
