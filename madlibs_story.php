@@ -38,7 +38,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Pahua's MadLibs</a>
+            <a class="navbar-brand" href="main.html">Pahua's MadLibs</a>
           </div>
 
           <div class="collapse navbar-collapse" id="bs-navbar-collapse">
@@ -82,6 +82,9 @@
               </div>
         </div>
      </div>
+
+
+                <button a href="index.html" type="submit" class="btn btn-block btn-lg btn-danger">Play again </a></button>
 
 
    <div class="container" id="footer">
