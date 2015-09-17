@@ -69,12 +69,19 @@
         </div>
       </nav>
 
-    <h1>A fantastical adventure</h1>
-    <p>One day, <?php echo $person1 ?> and <?php echo $person2 ?> were walking through the woods, when suddenly a giant <?php echo $animal ?> appeared. </p>
-    <p>"<?php echo $exclamation ?>", <?php echo $person1 ?> cried. </p>
-    <p>The two of them <?php echo $verb ?> as quickly possible, and when they were safe, <?php echo $person1 ?> and <?php echo $person2 ?> gave each other a giant <?php echo $noun ?>.</p>
-
-
+    <div id="Story" class ="container">
+      <div class="col-md-12">
+                <h2>A fantastical adventure</h2>
+              <div class="col-md-6">
+                  <p class="lead">One day, <?php echo $person1 ?> and <?php echo $person2 ?> were walking through the woods, when suddenly a giant <?php echo $animal ?> appeared. </p>
+                  <p class="lead">"<?php echo $exclamation ?>", <?php echo $person1 ?> cried. </p>
+                  <p class="lead">The two of them <?php echo $verb ?> as quickly as possible, and when they were safe, <?php echo $person1 ?> and <?php echo $person2 ?> gave each other a giant <?php echo $noun ?>.</p>
+               </div>
+              <div class="col-md-6">
+                <img class="img-circle img-responsive" src="img/woods.jpg">
+              </div>
+        </div>
+     </div>
 
 
    <div class="container" id="footer">
