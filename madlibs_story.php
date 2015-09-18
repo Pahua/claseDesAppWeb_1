@@ -20,7 +20,6 @@ $noun = $_GET["noun"];
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
 </head>
 
 
@@ -67,21 +66,26 @@ $noun = $_GET["noun"];
   </nav>
 
   <div id="Story" class ="container">
-    <div class="col-md-12">
-      <h2>A fantastical adventure</h2>
-      <div class="col-md-6">
-        <p class="lead">One day, <?php echo $person1 ?> and <?php echo $person2 ?> were walking through the woods, when suddenly a giant <?php echo $animal ?> appeared. </p>
-        <p class="lead">"<?php echo $exclamation ?>", <?php echo $person1 ?> cried. </p>
-        <p class="lead">The two of them <?php echo $verb ?> as quickly as possible, and when they were safe, <?php echo $person1 ?> and <?php echo $person2 ?> gave each other a giant <?php echo $noun ?>.</p>
-      </div>
-      <div class="col-md-6">
-        <img class="img-circle img-responsive" src="img/woods.jpg">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>A fantastical adventure</h2>
+        <div class="col-md-6">
+          <p class="lead">One day, <?php echo $person1 ?> and <?php echo $person2 ?> were walking through the woods, when suddenly a giant <?php echo $animal ?> appeared. </p>
+          <p class="lead">"<?php echo $exclamation ?>", <?php echo $person1 ?> cried. </p>
+          <p class="lead">The two of them <?php echo $verb ?> as quickly as possible, and when they were safe, <?php echo $person1 ?> and <?php echo $person2 ?> gave each other a giant <?php echo $noun ?>.</p>
+        </div>
+        <div class="col-md-6">
+          <img class="img-circle img-responsive" src="img/woods.jpg">
+        </div>
       </div>
     </div>
   </div>
-
-  <div class="col-md-10">
-    <button a href="madlibs_form.html" type="submit" class="btn btn-block btn-lg btn-danger">Play again </a></button>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-10">
+        <button a href="madlibs_form.html" type="submit" class="btn btn-block btn-lg btn-danger">Play again </a></button>
+      </div>
+    </div>
   </div>
 
 
